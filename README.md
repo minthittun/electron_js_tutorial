@@ -10,11 +10,10 @@ npm install
 npm start
 ```
 
-#### How to build respective package. e.g. mac version, windows version, linux version
+#### How to build respective package. e.g. mac version, windows version
 ```
 npm run package-mac
 npm run package-win
-npm run package-linux
 ```
 
 #### Powered by Rabbit.js
