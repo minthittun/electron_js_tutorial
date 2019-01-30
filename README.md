@@ -1,2 +1,2 @@
-# electron_js_tutorial
+# Electron js tutorial
 Electron js tutorial
