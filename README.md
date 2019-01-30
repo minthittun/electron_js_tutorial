@@ -4,6 +4,9 @@
 #### Mac version download link
 https://www.dropbox.com/sh/erwbivue2ze09v3/AABslPk7ROVCUE99P5bItqyTa?dl=0
 
+#### Windows version download link
+https://www.dropbox.com/s/2m5zie3p1ebelw3/zg_mm3_converter-win32-ia32.zip?dl=0
+
 #### How to run this project (Before you begin update node and npm version)
 ```
 npm install
