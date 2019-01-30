@@ -4,10 +4,14 @@
 # Mac version download link
 https://www.dropbox.com/sh/erwbivue2ze09v3/AABslPk7ROVCUE99P5bItqyTa?dl=0
 
-#### How to run and build package
+#### How to run this project
 ```
 npm install
 npm start
+```
+
+#### How to build respective package. e.g. mac version, windows version, linux version
+```
 npm run package-mac
 npm run package-win
 npm run package-linux
