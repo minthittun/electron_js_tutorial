@@ -1,10 +1,10 @@
 # Electron js tutorial
 
 #### ZG MM3 Converter
-# Mac version download link
+#### Mac version download link
 https://www.dropbox.com/sh/erwbivue2ze09v3/AABslPk7ROVCUE99P5bItqyTa?dl=0
 
-#### How to run this project
+#### How to run this project (Before you begin update node and npm version)
 ```
 npm install
 npm start
