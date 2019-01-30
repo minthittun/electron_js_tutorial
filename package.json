@@ -1,0 +1,17 @@
+{
+  "name": "zg_mm3_converter",
+  "version": "1.0.0",
+  "description": "ZG to MM3 converter.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"ZG & MM3 Converter\""
+  },
+  "author": "Min Thit Tun",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.2",
+    "electron-packager": "^13.0.1"
+  }
+}

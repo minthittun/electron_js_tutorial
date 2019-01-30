@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZG to MM3 converter</title>
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+    </head>
+    <body>
+
+        <div id="main_frame">
+            <div id="main_content_frame">
+                
+                <div class="container">
+                    <div class="left-half">
+                        <div class="sub_container">
+                            <div class="text_area_wrapper">
+                                <textarea id="txt_zawgyi" class="zgfont" placeholder="Type something"></textarea>
+                            </div>
+                            <div class="title_wrapper">
+                                <span class="text_color_white font_normal">Zawgyi font here:</span> 
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="right-half">
+                            <div class="sub_container">
+                                <div class="text_area_wrapper">
+                                    <textarea id="txt_mm3" class="mm3font" placeholder="Type something"></textarea>
+                                </div>
+                                <div class="title_wrapper">
+                                    <span class="text_color_white font_normal">MM3 font here:</span> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="footer">
+                    <span class="text_color_white font_small">Developed by Bagan Lab. Powered by <a href="http://www.rabbit-converter.org/">Rabbit.js</a></span> 
+            </div>
+        </div>
+
+        <!---->
+        
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/rabbit.js"></script>
+        <script>if (window.module) module = window.module;</script>
+        <script type="text/javascript">
+        
+            $(function(){
+                $('#txt_zawgyi').keyup(function(){
+                    $('#txt_mm3').val(zg2uni($(this).val()));
+                });
+
+                $('#txt_mm3').keyup(function(){
+                    $('#txt_zawgyi').val(uni2zg($(this).val()));
+                });
+
+            });
+
+        </script>
+
+    </body>
+</html>
