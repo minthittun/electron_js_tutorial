@@ -13,7 +13,7 @@ npm run package-win
 npm run package-linux
 ```
 
-#### Power by Rabbit.js
+#### Powered by Rabbit.js
 http://www.rabbit-converter.org
 
 ##### (MM3)
