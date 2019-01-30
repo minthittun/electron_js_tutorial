@@ -38,12 +38,6 @@ app.on('ready', function(){
       label: 'File',
       submenu:[
         {
-          label:'About',
-          click(){
-            
-          }
-        },
-        {
           label: 'Quit',
           accelerator:process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
           click(){
